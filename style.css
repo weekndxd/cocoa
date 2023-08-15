@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    font-family: "M PLUS 1p";
+}
+
+.nav-btn{
+    font-size: 17px;
+    margin-right: 40px;
+    color: dimgray;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+.contacts_button{
+    cursor: pointer;
+    width: 235px;
+    height: 53px;
+    background-color: #82AB2E;
+    font-size: 19px;
+    color: white;
+    font-family: "M PLUS 1p";
+}
+
+.contacts_button:hover{
+    opacity: .8;
+}
+
+.main-container{
+    background-image: url(cacao.jpg);
+    width: 1680px;
+    height: 785px;
+}
+.logo_img{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.img{
+    margin-top: 32px;
+    margin-left: 199px;
+    width: 77px;
+    height: 67px;
+}
+
+.logo_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.description-text{
+    width: 877px;
+    height: 440px;
+    gap: 32px;
+    margin-top: 56px;
+    margin-left: 460px;
+}
+
+.company-name{
+    font-family: Mplus 1p;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+    margin-top: 75px;
+}
+
+.description{
+    font-family: Mplus 1p;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF; 
+    margin-top: 40px;   
+}
+
+.btn-more{
+    width: 73px;
+    height: 73px;
+}
+
+.button_more{
+    width: 73px;
+    height: 73px;
+    color: #759C25;
+    border: 0.5px solid;
+    border-color: #759C25;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+.button_more:hover{
+    opacity: 0.8;
+}
+
+.about-container{
+    width: 100%;
+    height: 784px;
+    margin-top: 110px;
+    display: inline-flex;
+    background-image: url(cocoabg.jpg);
+}
+
+.cocoa-img{
+    width: 485px;
+    height: 709px;
+    margin-left: 460px;
+    background-image: url(cocoa.jpg);
+}
+
+.about-us_description{
+    width: 487px;
+    height: 190px;
+    margin-top: 225px;
+}
+
+.about-us{
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #230C08;
+}
+
+.description_about-us{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+}
